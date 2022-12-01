@@ -226,10 +226,10 @@ def stats(update, context):
 def start(update, context):
     buttons = ButtonMaker()
     if EMOJI_THEME is True:
-        buttons.buildbutton(f"Leech/Mirror Group 🖤", f"https://t.me/ashish_leech_group")
+        buttons.buildbutton(f"Leech/Mirror Group 🖤", f"https://t.me/Eliteflix_leech_group")
         buttons.buildbutton(f"Owner ❤", f"https://t.me/ashishsharmalegend")
     else:
-        buttons.buildbutton(f"Leech/Mirror Group 🖤", f"https://t.me/ashish_leech_group")
+        buttons.buildbutton(f"Leech/Mirror Group 🖤", f"https://t.me/Eliteflix_leech_group")
         buttons.buildbutton(f"Owner ❤", f"https://t.me/ashishsharmalegend")
     reply_markup = buttons.build_menu(2)
     if CustomFilters.authorized_user(update) or CustomFilters.authorized_chat(update):
